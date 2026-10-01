@@ -389,7 +389,7 @@ async function loadAPIs() {
     try {
 
         const response =
-            await fetch("/api");
+            await fetch("/api/list");
 
         if (!response.ok) {
 
